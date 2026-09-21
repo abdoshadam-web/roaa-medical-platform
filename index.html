@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="منصة د. رؤى حماد للاستشارات الدوائية والعناية بالبشرة"
+    />
+    <title>د. رؤى حماد | الاستشارات الدوائية</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+
+  <body>
+    <header class="site-header">
+      <div class="container header-content">
+        <a href="#" class="logo">
+          <span class="logo-icon">✚</span>
+          <span>
+            <strong>د. رؤى حماد</strong>
+            <small>استشارات دوائية وعناية بالبشرة</small>
+          </span>
+        </a>
+
+        <a class="header-whatsapp" href="#consultation">
+          ابدئي الاستشارة
+        </a>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-content">
+          <div class="hero-text">
+            <span class="eyebrow">منصة صحية موثوقة</span>
+
+            <h1>
+              فهم أفضل لدوائكِ،
+              <span>وعناية أفضل بصحتكِ</span>
+            </h1>
+
+            <p>
+              استشارات دوائية مبسطة تساعدكِ على فهم الأدوية وطريقة استخدامها
+              والاحتياطات المهمة، إضافة إلى إرشادات العناية بالبشرة والشعر.
+            </p>
+
+            <a href="#consultation" class="primary-button">
+              احجزي استشارتكِ الآن
+            </a>
+          </div>
+
+          <div class="hero-card">
+            <div class="hero-card-icon">✓</div>
+            <h2>استشارة دوائية شاملة</h2>
+            <p>للأدوية الموصوفة، الأدوية دون وصفة، المكملات، وأدوية البشرة.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="services section">
+        <div class="container">
+          <div class="section-heading">
+            <span class="eyebrow">خدماتنا</span>
+            <h2>كيف يمكننا مساعدتكِ؟</h2>
+          </div>
+
+          <div class="services-grid">
+            <article class="service-card">
+              <div class="service-icon">💊</div>
+              <h3>الاستشارات الدوائية</h3>
+              <p>
+                فهم طريقة استخدام الدواء، الجرعات المكتوبة، الاحتياطات
+                والتداخلات الدوائية.
+              </p>
+            </article>
+
+            <article class="service-card">
+              <div class="service-icon">🌿</div>
+              <h3>العناية بالبشرة</h3>
+              <p>
+                إرشادات حول حب الشباب، التصبغات، البشرة الدهنية والحساسة.
+              </p>
+            </article>
+
+            <article class="service-card">
+              <div class="service-icon">✨</div>
+              <h3>العناية بالشعر</h3>
+              <p>
+                مراجعة روتين الشعر وفروة الرأس ومناقشة مشاكل التساقط والجفاف.
+              </p>
+            </article>
+
+            <article class="service-card">
+              <div class="service-icon">🧴</div>
+              <h3>مراجعة المنتجات</h3>
+              <p>
+                مراجعة منتجات البشرة والشعر ومعرفة مدى ملاءمتها لاحتياجكِ.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="consultation" class="consultation-section section">
+        <div class="container consultation-layout">
+          <div class="consultation-info">
+            <span class="eyebrow">ابدئي الآن</span>
+            <h2>أرسلي تفاصيل الاستشارة</h2>
+            <p>
+              املئي البيانات التالية، ثم سيتم فتح محادثة واتساب برسالة جاهزة
+              تحتوي على معلومات الاستشارة.
+            </p>
+
+            <ul class="benefits">
+              <li>✓ أدوية موصوفة ودون وصفة</li>
+              <li>✓ فيتامينات ومكملات غذائية</li>
+              <li>✓ أدوية البشرة والشعر</li>
+              <li>✓ مراجعة أكثر من دواء</li>
+            </ul>
+          </div>
+
+          <form id="consultationForm" class="consultation-form">
+            <div class="form-row">
+              <label>
+                الاسم الكامل *
+                <input
+                  type="text"
+                  name="fullName"
+                  placeholder="اكتبي اسمكِ"
+                  required
+                />
+              </label>
+
+              <label>
+                العمر
+                <input
+                  type="number"
+                  name="age"
+                  min="1"
+                  max="120"
+                  placeholder="العمر"
+                />
+              </label>
+            </div>
+
+            <div class="form-row">
+              <label>
+                رقم واتساب *
+                <input
+                  type="tel"
+                  name="phone"
+                  placeholder="مثال: 249XXXXXXXXX"
+                  required
+                />
+              </label>
+
+              <label>
+                نوع الاستشارة *
+                <select name="consultationType" required>
+                  <option value="">اختاري نوع الاستشارة</option>
+                  <option>استفسار عن دواء محدد</option>
+                  <option>طريقة استخدام الدواء</option>
+                  <option>الأعراض الجانبية</option>
+                  <option>تداخلات دوائية</option>
+                  <option>أدوية الأطفال</option>
+                  <option>أدوية الحمل والرضاعة</option>
+                  <option>أدوية الأمراض المزمنة</option>
+                  <option>المكملات والفيتامينات</option>
+                  <option>أدوية البشرة والشعر</option>
+                  <option>مراجعة جميع الأدوية المستخدمة</option>
+                </select>
+              </label>
+            </div>
+
+            <div class="form-row">
+              <label>
+                اسم الدواء
+                <input
+                  type="text"
+                  name="medicationName"
+                  placeholder="اسم الدواء"
+                />
+              </label>
+
+              <label>
+                التركيز
+                <input
+                  type="text"
+                  name="strength"
+                  placeholder="مثال: 500 mg"
+                />
+              </label>
+            </div>
+
+            <label>
+              الجرعة وطريقة الاستخدام
+              <input
+                type="text"
+                name="dosage"
+                placeholder="مثال: قرص بعد الأكل"
+              />
+            </label>
+
+            <label>
+              سبب استخدام الدواء
+              <textarea
+                name="reason"
+                rows="3"
+                placeholder="اكتبي سبب استخدام الدواء"
+              ></textarea>
+            </label>
+
+            <label>
+              الأدوية الأخرى المستخدمة
+              <textarea
+                name="otherMedications"
+                rows="3"
+                placeholder="اكتبي أسماء الأدوية الأخرى إن وُجدت"
+              ></textarea>
+            </label>
+
+            <label>
+              المكملات والفيتامينات
+              <textarea
+                name="supplements"
+                rows="2"
+                placeholder="اكتبي أسماء المكملات إن وُجدت"
+              ></textarea>
+            </label>
+
+            <div class="form-row">
+              <label>
+                الحمل أو الرضاعة
+                <select name="pregnancy">
+                  <option value="">اختاري</option>
+                  <option>لا يوجد</option>
+                  <option>حامل</option>
+                  <option>مرضع</option>
+                  <option>أفضل عدم الإفصاح</option>
+                </select>
+              </label>
+
+              <label>
+                الحساسية من الأدوية
+                <input
+                  type="text"
+                  name="allergies"
+                  placeholder="اكتبي اسم الدواء أو لا توجد"
+                />
+              </label>
+            </div>
+
+            <label>
+              تفاصيل الاستفسار *
+              <textarea
+                name="question"
+                rows="4"
+                placeholder="اكتبي سؤالك بالتفصيل"
+                required
+              ></textarea>
+            </label>
+
+            <label class="checkbox-label">
+              <input type="checkbox" required />
+              <span>
+                أوافق على إرسال المعلومات للمراجعة الدوائية، وأفهم أن
+                الاستشارة لا تستبدل مراجعة الطبيب ولا تشمل تغيير العلاج دون
+                توجيه مختص.
+              </span>
+            </label>
+
+            <button type="submit" class="submit-button">
+              إرسال الاستشارة عبر واتساب
+            </button>
+
+            <p id="formMessage" class="form-message"></p>
+          </form>
+        </div>
+      </section>
+
+      <section class="warning-section">
+        <div class="container">
+          <strong>تنبيه مهم:</strong>
+          في حال وجود صعوبة في التنفس، تورم شديد، فقدان وعي، نزيف أو أعراض
+          خطيرة، توجهي فورًا إلى أقرب قسم طوارئ.
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>© 2026 د. رؤى حماد. جميع الحقوق محفوظة.</p>
+        <p>للتثقيف والتوجيه الصحي العام</p>
+      </div>
+    </footer>
+
+    <script type="module" src="/app.js"></script>
+  </body>
+</html>
